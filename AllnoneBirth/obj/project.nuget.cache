@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rIXBKYQhdDlK2twW8xhVT/MMOsILxBSO/4szyBhIi02Osvejlvcgpno5rjtuRo1J4cvnVw1L+wArXQZd0TCj5Q==",
+  "dgSpecHash": "lJc/m8Gnu3I+g+1ILl3CG0YYDA8B174VtW3PRwyoPYLoFUHEqdm/Ehaw0w3GL1VHyv5aBORIfkN1I3+R4msZsg==",
   "success": true,
   "projectFilePath": "/Users/konstantin/RiderProjects/AllnoneBirth/AllnoneBirth/AllnoneBirth.csproj",
   "expectedPackageFiles": [
@@ -8,15 +8,16 @@
     "/Users/konstantin/.nuget/packages/microsoft.data.sqlite/9.0.0-preview.4.24267.1/microsoft.data.sqlite.9.0.0-preview.4.24267.1.nupkg.sha512",
     "/Users/konstantin/.nuget/packages/microsoft.data.sqlite.core/9.0.0-preview.4.24267.1/microsoft.data.sqlite.core.9.0.0-preview.4.24267.1.nupkg.sha512",
     "/Users/konstantin/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "/Users/konstantin/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/konstantin/.nuget/packages/microsoft.openapi/1.6.14/microsoft.openapi.1.6.14.nupkg.sha512",
     "/Users/konstantin/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/konstantin/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.7/sqlitepclraw.bundle_e_sqlite3.2.1.7.nupkg.sha512",
     "/Users/konstantin/.nuget/packages/sqlitepclraw.core/2.1.7/sqlitepclraw.core.2.1.7.nupkg.sha512",
     "/Users/konstantin/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.7/sqlitepclraw.lib.e_sqlite3.2.1.7.nupkg.sha512",
     "/Users/konstantin/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.7/sqlitepclraw.provider.e_sqlite3.2.1.7.nupkg.sha512",
     "/Users/konstantin/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
-    "/Users/konstantin/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
-    "/Users/konstantin/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/Users/konstantin/.nuget/packages/swashbuckle.aspnetcore.annotations/6.6.2/swashbuckle.aspnetcore.annotations.6.6.2.nupkg.sha512",
+    "/Users/konstantin/.nuget/packages/swashbuckle.aspnetcore.swagger/6.6.2/swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
+    "/Users/konstantin/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.6.2/swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
     "/Users/konstantin/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
     "/Users/konstantin/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
   ],
