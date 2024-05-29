@@ -5,14 +5,14 @@ using System.Collections.Generic;
 namespace AllnoneBirth.Controllers
 {
     [ApiController]
-    [Route("api/BirthDay")]
+    [Route("api/DataCalculator")]
     [Produces("application/json")]
-    public class BdayController : ControllerBase
+    public class DataController : ControllerBase
     {
-        [HttpGet("BirthinDays")]
-        public IActionResult PassfromBirthinD(string bday)
+        [HttpGet("PassDatainDays")]
+        public IActionResult PassfromDatainD(string data)
         {
-            if (DateTime.TryParseExact(bday, "MM.dd.yyyy", null, System.Globalization.DateTimeStyles.None,
+            if (DateTime.TryParseExact(data, "MM.dd.yyyy", null, System.Globalization.DateTimeStyles.None,
                     out DateTime birthDate))
             {
                 var timePassedInDays = (DateTime.Now - birthDate).Days;
@@ -24,10 +24,10 @@ namespace AllnoneBirth.Controllers
 
             return BadRequest("Некорректный формат даты. Ожидается формат 'MM.dd.yyyy'.");
         }
-        [HttpGet("BirthinWeeks")]
-        public IActionResult PassedfromBirthW(string bday)
+        [HttpGet("PassDatainWeeks")]
+        public IActionResult PassedfromDataW(string data)
         {
-            if (DateTime.TryParseExact(bday, "MM.dd.yyyy", null, System.Globalization.DateTimeStyles.None,
+            if (DateTime.TryParseExact(data, "MM.dd.yyyy", null, System.Globalization.DateTimeStyles.None,
                     out DateTime birthDate))
             {
                 var timePassedInWeeks = (DateTime.Now - birthDate).Days / 7;
@@ -40,10 +40,10 @@ namespace AllnoneBirth.Controllers
             return null;
         }
 
-        [HttpGet("BirthinMonths")]
-        public IActionResult PassedfromBirthM(string bday)
+        [HttpGet("PassDatainMonths")]
+        public IActionResult PassedfromDayM(string data)
         {
-            if (DateTime.TryParseExact(bday, "MM.dd.yyyy", null, System.Globalization.DateTimeStyles.None,
+            if (DateTime.TryParseExact(data, "MM.dd.yyyy", null, System.Globalization.DateTimeStyles.None,
                     out DateTime birthDate))
             {
                 var timePassedInMonths = (DateTime.Now - birthDate).Days / 30;
